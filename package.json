@@ -1,0 +1,29 @@
+{
+  "name": "spence-s-next-starter",
+  "version": "0.1.0",
+  "dependencies": {
+    "next": "10.0.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.29.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "eslint-config-xo-react": "^0.23.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "xo": "^0.34.2"
+  },
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev -p 4000",
+    "lint": "yarn run lint:js && yarn run lint:md",
+    "lint:js": "xo",
+    "lint:md": "prettier --check ./**/*.md",
+    "start": "next start -p 4000"
+  }
+}

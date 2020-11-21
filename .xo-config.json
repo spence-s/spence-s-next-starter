@@ -5,6 +5,7 @@
   "extensions": [".js", ".jsx", ".json", ".md"],
   "envs": ["browser", "node", "es2021"],
   "rules": {
+    "no-console": "warn",
     "react/prop-types": "off",
     "react/jsx-pascal-case": "off",
     "camelcase": "off",

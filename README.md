@@ -1,18 +1,10 @@
 # spence-s-next-starter
 
-This starter is an up to date template for create-next-app with some built in linting and nice things that I like to start my projects off with.
+![Lass js Image](https://cdn.rawgit.com/lassjs/lass/e39cd571/media/lass.png)
+Inspired by [lassjs](https://github.com/lassjs/lass)
 
-```sh
-npx create-next-app -e https://github.com/Spence-S/spence-s-next-starter
-```
 
-or
-
-```sh
-yarn create next-app -e https://github.com/Spence-S/spence-s-next-starter
-```
-
-### Features
+## Features
 
 * prettier + xo + editorconfig for linting and formatting
 * scss for better styling experience
@@ -22,10 +14,23 @@ yarn create next-app -e https://github.com/Spence-S/spence-s-next-starter
 * markdown lint and fix with remark and prettier
 * fixpack for perfect package.json
 
-inspired in part by [lassjs](https://github.com/lassjs/lass)
+
+## Installation
+
+This starter is an up to date template for create-next-app with some built in linting and nice things that I like to start my projects off with. Particularly the linting and dev tools I usually set my packages up with from Lass.
+
+```sh
+npx create-next-app -e https://github.com/spence-s/spence-s-next-starter
+```
+
+or
+
+```sh
+yarn create next-app -e https://github.com/spence-s/spence-s-next-starter
+```
 
 
-## create-next-app
+## From create-next-app
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -40,7 +45,7 @@ npm run dev
 yarn dev
 ```
 
-Open <http://localhost:3000> with your browser to see the result.
+Open <http://localhost:4000> with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
@@ -51,12 +56,6 @@ To learn more about Next.js, take a look at the following resources:
 
 * [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 * [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* [Check out Lass](https://github.com/lassjs/lass)
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template\&filter=next.js\&utm_source=create-next-app\&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

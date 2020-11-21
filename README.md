@@ -13,6 +13,9 @@ Inspired by [lassjs](https://github.com/lassjs/lass)
 * husky, lint-staged, + commitlint for beautiful consistent git commits
 * markdown lint and fix with remark and prettier
 * fixpack for perfect package.json
+* resolve paths from the root of your project automatically
+  * [module path aliases documentation](https://nextjs.org/docs/advanced-features/module-path-aliases)
+  * ie... `import MyComponent from 'components/MyComponent'`js instead of `import MyComponent from '../../../components/MyComponent'`
 
 
 ## Installation
